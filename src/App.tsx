@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <h2>Pop-up Embed</h2>
-      <button key={'whats-new-launchnotes'} id="#whats-new-launchnotes">Click Me</button>
+      <button key={'whats-new-launchnotes'} id="whats-new-launchnotes">Click Me</button>
       <launchnotes-embed
         project={process.env.PRODUCTION_META}
         token={process.env.PRODUCTION_META_PUBLIC_TOKEN}
